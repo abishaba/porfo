@@ -1,0 +1,389 @@
+*{
+    color:white;
+}
+body{
+    background:#003;
+    margin: 0;
+    padding:0;
+    height:100%;
+}
+/* start-logo*/
+.logo img{
+width:105px;
+height:98px;
+border-radius:50%;
+}
+.logo{
+    position:relative;
+}
+
+.logo h1{
+    position:absolute;
+    left:10px;
+    top:100px;
+    font-size:25px;
+    font-family: monospace;
+    color:black;
+}
+ 
+/* the end logo*/
+/* start-a*/
+a{
+    text-decoration:none;
+    font-size:23px;
+    color:black;
+}
+/* the end a*/
+/*start ul li container*/
+ul li{
+    list-style:none;
+}
+ul{
+     
+     margin-bottom: -20px;
+}
+li{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    align-items:center; 
+    gap:20px;
+    margin: 51px;
+    margin-left:-30px;
+    padding:2px;
+    border-radius:5px;
+    transition:all 0.5s;
+    position:relative;
+}
+ul li:hover{
+    transition:all 0.5s;
+    cursor:pointer;
+    background:#0eabdb;
+}
+
+ul li a:hover{
+    color:white;
+}
+.menu{
+    padding:6px;
+    background:white;
+    width:320px;
+    height:100%;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content:center;
+    transition:all 0.5s;
+}
+
+img{
+    width:30px;
+    height:30px;
+}
+/*the end ul li container*/
+/* start button*/
+.button{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+.button button{  
+    padding:5px;
+    width:50%;
+    color:black;
+    font-size:19px;
+   border:none;
+   background:red;
+   color:white;
+   cursor:pointer;
+}
+/* the start-section-2*/
+
+.containerall{
+    display:flex;
+    flex-direction:row;
+}
+
+.container-1{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    padding:3px;
+}
+/*start dashborder*/
+.dashborder{
+    padding:4px;
+    border-radius:4px;
+    background:#00aeff;
+    border:none;
+    text-align: center;
+}
+/*the end dashborder*/
+.dashbordercontainer{
+    border:none;
+    padding:8px;
+    text-align: center;
+    font-size:19px;
+    border-radius:7px;
+    background:#00aeff;
+}
+/*start container-dashborder*/
+.container-dashborder{
+    display:flex;
+    flex-direction:row;
+     justify-content: space-between;
+     align-items:center;
+     margin-top: 10px;
+     height:30%;
+     padding:5px;
+     border-radius:5px;
+     background:#fff;
+}
+
+.container-dashborder .section-1,
+.container-dashborder .section-2,
+.container-dashborder .section-3,
+.container-dashborder .section-4{
+    width:32%;
+    height:120px;
+    padding:6px;
+    border-radius:9px;
+    background:#00c8ff;
+    border:none;
+    margin: 3px;
+    cursor:pointer;
+    font-family:monospace;
+    transition:all 0.5s;
+}
+h1{
+    color:black;
+}
+.container-dashborder .section-1:hover,
+.container-dashborder .section-2:hover,
+.container-dashborder .section-3:hover,
+.container-dashborder .section-4:hover{
+    transition:all 0.5s;
+    background:white;
+    box-shadow:1px 7px 12px 1px black;
+}
+
+/*the end dashborder-container*/
+/* start container-product*/
+.container-product{
+     
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    height:100%;
+    gap:10px;
+    background:#08131e;
+}
+
+.product,
+.price-container,
+.counter-container{
+    padding:5px;
+    font-size:19px;
+    font-family:system-ui;
+    width:100%; 
+    border-radius:7px;
+    text-align:center;
+}
+/*product*/
+.product .product-1,
+.product .product-2,
+.product .product-3,
+.product .product-4,
+.product .product-5,
+.product .product-6,
+.product .product-7,
+.product .product-8
+{
+    cursor:pointer;
+    text-align:center;
+    border-radius:5px;
+    padding:4px;
+    color:white;
+    margin: 6px;
+    background:#00c8ff;
+    transition:all 0.5s;
+    width:100%;
+}
+
+.product .product-1:hover,
+.product .product-2:hover,
+.product .product-3:hover,
+.product .product-4:hover,
+.product .product-5:hover,
+.product .product-6:hover,
+.product .product-7:hover,
+.product .product-8:hover{
+    transition:all 0.5s;
+    background:white;
+    color:#00c8ff;
+}
+
+.product-0{
+    padding:5px;
+border-radius:5px;
+background:#00c8ff;
+color:black;
+width:100%;
+}
+/*price*/
+.price-container .price-1,
+.price-container .price-2,
+.price-container .price-3,
+.price-container .price-4,
+.price-container .price-5,
+.price-container .price-6,
+.price-container .price-7,
+.price-container .price-8{
+    
+    text-align:center;
+    border-radius:5px;
+    padding:4px;
+    color:white;
+    margin: 6px;
+    background:#00c8ff;
+    transition:all 0.5s;
+    cursor: pointer;
+    width:100%;
+    color:#eaeff2fb;
+}
+
+.price-container .price-1:hover,
+.price-container .price-2:hover,
+.price-container .price-3:hover,
+.price-container .price-4:hover,
+.price-container .price-5:hover,
+.price-container .price-6:hover,
+.price-container .price-7:hover,
+.price-container .price-8:hover{
+    transition:all 0.5s;
+    background:white;
+    color:#00c8ff;
+}
+
+.price{
+padding:6px;
+border-radius:5px;
+background:#00c8ff;
+color:black;
+width:100%;
+}
+/*counter*/
+.counter-container .counter-1,
+.counter-container .counter-2,
+.counter-container .counter-3,
+.counter-container .counter-4,
+.counter-container .counter-5,
+.counter-container .counter-6,
+.counter-container .counter-7,
+.counter-container .counter-8
+{
+    text-align:center;
+    border-radius:5px;
+    padding:4px;
+    color:white;
+    margin: 6px;
+    background:#00c8ff;
+    transition:all 0.5s;
+    cursor: pointer;
+    width:90%;
+}
+
+.counter-container .counter-1:hover,
+.counter-container .counter-2:hover,
+.counter-container .counter-3:hover,
+.counter-container .counter-4:hover,
+.counter-container .counter-5:hover,
+.counter-container .counter-6:hover,
+.counter-container .counter-7:hover,
+.counter-container .counter-8:hover{
+ transition:all 0.5s;
+    background:white;
+    color:#00c8ff;
+   
+}
+
+.counter{
+padding:6px;
+border-radius:5px;
+background:#00c8ff;
+color:black;
+}
+
+@media (max-width:700px) and (min-width:500px){
+
+    .menu{
+        width:10%;
+        position:relative;
+    }
+    .logo img{
+        width:50px;
+        height:50px;
+        
+    }
+    .logo h1{
+        font-size:15px;
+        position: absolute;
+        top:49px;
+    }
+    ul li{
+        width:40px;
+        height:90px;
+    }
+    ul li a{
+        position:absolute;
+        bottom:0;
+        font-size:14px;
+    }
+    ul li:hover{
+        background:none;
+        color:none;
+    }
+    ul li a:hover{
+        color:black;
+    }
+    .container-product{
+        height:500px;
+        display:flex;
+        flex-direction:column;
+        padding:10px;
+    }
+    .container-1{
+     height:700px;
+    }
+    .dashbordercontainer{
+        margin-top: 15px;
+        background:none;
+        border-bottom:solid white 0.5px;
+    }
+    .dashborder{
+         margin-top: 15px;
+        background:none;
+        border-bottom:solid white 0.5px;
+    }
+    
+.buttonres button{
+    padding:5px;
+    width:55%;
+    color:black;
+    font-size:19px;
+   border:none;
+   background:red;
+   color:white;
+   cursor:pointer;
+   margin-left:12px;
+   border-radius:7px;
+}
+
+    .button button{
+        display:none;
+    }
+}
